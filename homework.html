@@ -16,13 +16,15 @@
             <th scope="col">Address</th>
             <th scope="col">Phone No.</th>
             <th scope="col">Gender</th>
+            <th scope="col">Birthdate</th>
+
           </tr>
         </thead>
+
         <tbody id="tableBody">
-          
         </tbody>
+
       </table>
-    
 
     <script>
         var xhr = new XMLHttpRequest();
@@ -43,6 +45,7 @@
                             "<td>" + res[i].address + "</td>" +
                             "<td>" + res[i].phone + "</td>" +
                             "<td>" + res[i].gender + "</td>" +
+                            "<td>" + res[i].birthdate + "</td>" +
                           "</tr>";
                 tableBody.innerHTML += row;
             }

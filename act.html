@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+            <div class="mb-3">
+                <label for="name" class="form-label">NAME:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <br>
+    
+            <div class="mb-3">
+                <label for="address" class="form-label">ADDRESS:</label>
+                <input type="text" class="form-control" id="address" address="address" required>
+            </div>
+            <br>
+            <div class="mb-3">
+              <label for="phone" class="form-label">PHONE:</label>
+              <input type="number" class="form-control" id="phone" name="phone" required>
+            </div>
+            <br>
+            <div class="mb-3">
+              <label for="gender" class="form-label">GENDER:</label>
+              <input type="text" class="form-control" id="gender" name="gender" required>
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="birthdate" class="form-label">BIRTHDATE:</label>
+                <input type="number" class="form-control" id="birthdate" name="birthdate" required>
+              </div>
+              <br>
+    
+            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <table border="2">
+      <thead>
+          <tr>
+              <th>id</th>
+              <th>name</th>
+              <th>address</th>
+              <th>phone</th>
+              <th>gender</th>
+              <th>birthdate</th>
+          </tr>
+      </thead>
+      <tbody id="tableBody">
+          
+      </tbody>
+  </table>
+
+    <script src="js.js"></script>
